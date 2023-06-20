@@ -9,7 +9,7 @@ export default function Contact() {
             whileInView={{ y: [100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className='font-bold uppercase relative text-xl tracking-widest text-dark_primary  w-full'>Get in touch</motion.h1>
-            <motion.hr whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }} className='border-primary border-4 w-24 mb-2'/>
+            <motion.hr whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }} className='border-dark_primary  border-4 w-24 mb-2'/>
             
             <div className="py-4 w-full mx-auto text-dark_primary ">
                 <motion.div whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }}

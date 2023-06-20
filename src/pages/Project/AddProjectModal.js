@@ -41,7 +41,7 @@ export default function AddProjectModal({openRegisterModal,setOpenRegisterModal}
                         <h2>Add images of projects project</h2>
                         <input type="text" name="names" value="4" onChange={(e)=>setPages(e.target.value)} className='w-12 h-8 dark:bg-dark_primary bg-secondary_2 dark:bg-opacity-10 border-none  outline-none' required/>
                     </div>
-                    <div className='grid grid-cols-4 gap-2'>
+                    <div className='grid lg:grid-cols-4 grid-cols-2 gap-4'>
                         <DropImage/>
                         <DropImage/>
                         <DropImage/>

@@ -16,7 +16,7 @@ import { RiCloseFill } from 'react-icons/ri'
 
 const Links=[
     {
-        link:'Home',
+        link:'About',
         path:"/"
     },
     {
@@ -40,7 +40,7 @@ export function NavBar({openMenu,setOpenMenu}){
     
 
     return(
-        <div className='w-full px-8 grid  lg:grid-cols-4 grid-cols-2 gap-2 py-3 sticky top-0 z-10 bg-secondary bg-opacity-80 dark:bg-dark_secondary'>
+        <div className='w-full lg:px-8 px-4 grid  lg:grid-cols-4 grid-cols-2 gap-2 py-3 sticky top-0 z-10 bg-secondary bg-opacity-80 dark:bg-dark_secondary'>
             <div className='text-dark_primary font-bold  w-8 h-8'> 
                 <img src={Logo} alt='profile_image' className='w-full h-full object-cover'/>
             </div>
