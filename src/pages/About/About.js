@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
@@ -9,10 +10,10 @@ export default function About() {
                     <h1 className='font-bold uppercase relative lg:text-xl tracking-widest text-primary w-full'>IRAFASHA Gedeon</h1>
                     <span className='uppercase text-sm text-primary text-opacity-60 font-bold'>Software Developer</span>
                 </div>
-                <div
+                <Link
                 className='drop-shadow-lg shadow-lg text-xs ml-auto mr-4 text-secondary py-2 px-4 w-40 h-8 text-center font-bold cursor-pointer duration-300 ease-in-out hover:bg-opacity-90  bg-primary dark:bg-dark_primary hover:dark:bg-opacity-50'>
                     Check out my CV
-                </div> 
+                </Link> 
             </div>
 
             <div className='text-dark_secondary dark:text-secondary_2'>

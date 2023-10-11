@@ -22,8 +22,8 @@
     }
      
     ::-webkit-scrollbar-thumb {
-      background-color: #d1d5db;
-      outline: 2px solid #d1d5db;
+      background-color: #2e94c5;
+      outline: 2px solid #2e94c5;
     }
   
     .owl-carousel .owl-prev.disabled,

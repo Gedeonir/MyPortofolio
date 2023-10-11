@@ -5,11 +5,8 @@ import { scaleVariants } from '../../constants/scaleVariants'
 export default function Contact() {
     return(
         <div className="py-12 lg:px-8 px-4  font-medium bg-secondary_2 dark:bg-dark_secondary_2">
-            <motion.h1
-            whileInView={{ y: [100, 0], opacity: [0, 1] }}
-            transition={{ duration: 0.5 }}
-            className='font-bold uppercase relative text-xl tracking-widest text-dark_primary  w-full'>Get in touch</motion.h1>
-            <motion.hr whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }} className='border-dark_primary  border-4 w-24 mb-2'/>
+            <h1 className='font-bold uppercase relative tracking-widest text-dark_primary  w-full'>Get in touch</h1>
+            <hr className='border-dark_primary  border-2 w-24 mb-2'/>
             
             <div className="py-4 w-full mx-auto text-dark_primary ">
                 <motion.div whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }}
