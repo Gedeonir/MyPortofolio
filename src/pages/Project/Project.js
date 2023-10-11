@@ -18,39 +18,22 @@ function ProjectCard({openDetails,setOpenDetails,openDeleteModal,setOpenDeleteMo
     const navigate=useNavigate();
     
     return(
-        <motion.div
-        variants={scaleVariants}
-        whileInView={scaleVariants.whileInView}
-         className='w-full lg:h-72 relative group'>
-            <img src={project.icon?project.icon:webdev} alt='profile_image' className='w-full h-full'/>
-            <motion.div
-            whileInView={{ y: [10, 0], opacity: [0, 1] }}
-            transition={{ duration: 0.5 }}
-            className='w-full h-72 hidden group-hover:block absolute top-0 left-0 right-0 px-4 py-8 bg-secondary_2 dark:bg-dark_secondary_2'>
-                {/* <div className=' absolute top-4  right-4 group'>
-                    <BiDotsVerticalRounded size={25} onClick={()=>setOpen(!open)} className='hover:opacity-50 duration-100 ease-in-out text-dark_primary '/>
-                    {open&&
-                    <ul className='shadow-lg bg-secondary dark:bg-dark_secondary absolute rounded-l-lg rounded-b-lg top-8 right-5 py-2 w-12 text-xs  text-dark_primary'>
-                        <li className='font-bold px-2 text-left cursor-pointer hover:bg-background_secondary hover:bg-opacity-20 duration-200 ease-in-out p-1'>Edit</li>
-                        <li onClick={()=>{setOpenDeleteModal(!openDeleteModal);setOpen(!open)}} className='font-bold px-2 text-left cursor-pointer hover:bg-background_secondary hover:bg-opacity-20 duration-200 ease-in-out p-1'>Delete</li>
-                    </ul>}
-                </div> */}
-                <h1 className='font-bold uppercase relative lg:text-xl tracking-widest text-dark_primary  w-full text-center'>{project.projectName}</h1>
-                {/* <div className='flex justify-start flex-wrap gap-4 py-4'>
-                    {project.Tools.map(tool=>(
-                        <label key={tool} className='text-center text-yellow uppercase italic font-bold text-xs'>
-                            {tool}
-                        </label>
-                    ))}
-                </div> */}
-                
+        <motion.div  whileInView={{ y: [100, 0], opacity: [0, 1] }}      transition={{ duration: 0.5 }}
+        className='relative isolate flex flex-col justify-end overflow-hidden rounded-t-lg px-4 pb-4 pt-40 w-full mx-auto mt-2 group'>
+            <img src={project.icon?project.icon:webdev} alt='profile_image' className='absolute inset-0 h-full w-full object-cover'/>
+
+            <div className='absolute inset-0 bg-gradient-to-t from-[rgb(33,33,33)] via-[rgb(33,33,33,0.3)]'></div>
+            <h3 className='z-10 mt-3 text-lg font-bold text-secondary'>{project.projectName}</h3>
+            <div className='z-10 gap-y-1 overflow-hidden text-sm leading-6 text-yellow font-bold'>{project.projectDescription}</div>
+            <div
+            className='w-full  h-full inset-0 z-20 dark:bg-opacity-30 bg-opacity-50 hidden group-hover:flex items-center absolute top-0 left-0 right-0 px-4 py-8 bg-secondary_2 dark:bg-dark_secondary_2'>
                 <div  className='border-btn border-2 mx-auto text-secondary py-2 px-4 w-52 my-8 text-center font-bold cursor-pointer duration-300 ease-in-out  bg-btn uppercase' 
                 onClick={()=>{
                     navigate(`/project?id=${project.projectCode}`,{replace:true})
                 }}>
                     Explore more
                 </div>
-            </motion.div>
+            </div>
         </motion.div>
     )
 }

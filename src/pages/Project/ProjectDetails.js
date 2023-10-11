@@ -17,7 +17,7 @@ export default function ProjectDetails({openDetails,setOpenDetails}) {
   return (
     <div  className='fixed bg-primary dark:bg-dark_secondary_2 min-h-screen top-0 bg-opacity-20 dark:bg-opacity-70 w-full left-0 z-20'>
         <div className='bg-secondary dark:bg-dark_secondary lg:w-4/5 mx-auto min-h-screen max-h-screen overflow-y-auto pb-3 relative'>
-            <div className='py-2 sticky pl-4 w-12 top-0 rounded-r-full -left-2 absolute z-40 text-btn cursor-pointer hover:text-opacity-90 shadow-lg drop-shadow' onClick={()=>navigate("/",{replace:true})}>
+            <div className='py-2 sticky pl-4 w-12 top-0 rounded-r-full -left-2  z-40 text-btn cursor-pointer hover:text-opacity-90 shadow-lg drop-shadow' onClick={()=>navigate("/",{replace:true})}>
                 <AiFillCloseCircle size={20} className=''/>
             </div>
             {oneProject.length<=0?(
@@ -35,7 +35,7 @@ export default function ProjectDetails({openDetails,setOpenDetails}) {
                             
                             <div>
                                 <h1 className='font-bold uppercase relative lg:text-xl tracking-widest text-btn w-full'>{project.projectName}</h1>
-                                <span className='uppercase text-sm text-btn text-opacity-60 font-bold'>{project.projectDescription} (<span className='text-yellow'>{project.developedBy} Project</span>)</span>
+                                <label className='uppercase text-sm text-btn text-opacity-60 font-bold'>{project.projectDescription} (<span className='text-yellow'>{project.developedBy} Project</span>)</label>
                             </div>
                             <div className='lg:text-xl font-bold text-yellow'>
                                 <span>{project.yearDeveloped}</span>
@@ -85,10 +85,10 @@ export default function ProjectDetails({openDetails,setOpenDetails}) {
 
                         </div>
 
-                        <Link to={`${project.Link}`} target='_blank'
+                        {project.Link && <Link to={`${project.Link}`} target='_blank'
                         className='bg-btn mx-8 text-secondary py-2 px-4 w-32 text-center font-bold cursor-pointer duration-300 ease-in-out hover:bg-opacity-20'>
-                            Visit site
-                        </Link>
+                            Visit project
+                        </Link>}
 
 
                     </motion.div>

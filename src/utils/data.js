@@ -322,50 +322,67 @@ import addLesson from '../assets/projectwmtms/addLesson.png';
 import addCourse from '../assets/projectwmtms/addCourse.png';
 
 
+import holder from '../assets/gereranya/holder.png';
+import ghome from '../assets/gereranya/ghome.png';
+import Banks from '../assets/gereranya/Banks.png';
+import cardscompare from '../assets/gereranya/cardscompare.PNG';
+import calculator from '../assets/gereranya/loanCalculator.png';
+import loanscompare from '../assets/gereranya/loanscompare.png';
+import services from '../assets/gereranya/services.png';
+import accountreq from '../assets/gereranya/accountreq.PNG';
+import eservicescompare from '../assets/gereranya/eservicescompare.png'
+
+
+import vsp from '../assets/vsp/vsp.png'
+import auth from '../assets/vsp/auth.png'
+import users from '../assets/vsp/users.png'
+import products from '../assets/vsp/products.png'
+import orders from '../assets/vsp/orders.png'
+
 
 export const projects=[
-    {
-    "projectCode":"2022001",
-    "projectName":"Phantom project",
-    "icon":"",
-    "yearDeveloped":"2022",
-    "projectDescription":"Bus tracking project",
-    "developedBy":"Team",
-    "overview":`
-    <p>
-        Phantom project is a bus tracking project which was developed in 2022 during my training time at Andela. It was developed by team of 10-15 developers.
-        The project is intended to help people who are in need of travelling from one place to another to know information of buses,these information 
-        includes but not limited to:
-    </p><br/>
-    <ul>
-        <li>-Bus location</li>
-        <li>-Distance between bus and passenger location and time it will take to reach to him or her</li>
-        <li>-Bus driver</li>
-        <li>-Bus origin and destination</li>
-        etc..
-    </ul>
-    `,
-    "contributions":`
-    <p>During this project i have contributed to various stages of its development such as:</p><br/>
-    <ul>
-        <li>-Contributed in UI/UX designs of project like CRUD operations of buses</li>
-        <li>-Collaborated closely with my team to prioritize and tackle critical issues effectively.</li>
-        <li>-Debugged potential software errors and streamlined error handling processes to optimize application performance.</li>
-        <li>-Writting and running tests for Backend Api</li>
-        <li>-Supporting in integration of Backend APIs with Frontend project</li>
-        <li>-Coding the Frontend part of the project using React framework</li>
-        <li>-Leading the software development team</li>
-        <li>-Dockerizing the project</li>
-        <li>-Conducting code reviews</li>
-    </ul>
-    `,
+//     {
+//     "projectCode":"2022001",
+//     "projectName":"Phantom project",
+//     "icon":"",
+//     "yearDeveloped":"2022",
+//     "projectDescription":"Bus tracking project",
+//     "developedBy":"Team",
+//     "overview":`
+//     <p>
+//         Phantom project is a bus tracking project which was developed in 2022 during my training time at Andela. It was developed by team of 10-15 developers.
+//         The project is intended to help people who are in need of travelling from one place to another to know information of buses,these information 
+//         includes but not limited to:
+//     </p><br/>
+//     <ul>
+//         <li>-Bus location</li>
+//         <li>-Distance between bus and passenger location and time it will take to reach to him or her</li>
+//         <li>-Bus driver</li>
+//         <li>-Bus origin and destination</li>
+//         etc..
+//     </ul>
+//     `,
+//     "contributions":`
+//     <p>During this project i have contributed to various stages of its development such as:</p><br/>
+//     <ul>
+//         <li>-Contributed in UI/UX designs of project like CRUD operations of buses</li>
+//         <li>-Collaborated closely with my team to prioritize and tackle critical issues effectively.</li>
+//         <li>-Debugged potential software errors and streamlined error handling processes to optimize application performance.</li>
+//         <li>-Writting and running tests for Backend Api</li>
+//         <li>-Supporting in integration of Backend APIs with Frontend project</li>
+//         <li>-Coding the Frontend part of the project using React framework</li>
+//         <li>-Leading the software development team</li>
+//         <li>-Dockerizing the project</li>
+//         <li>-Conducting code reviews</li>
+//     </ul>
+//     `,
 
-    "pages":[],
-    "Tools":['React','Node js','Material UI','Git','GitHub','Trello','Docker','VsCode','Google Chrome','Postgres'],
-    "Link":"https://github.com/atlp-rwanda/Avengers-Phantom-FE"
+//     "pages":[],
+//     "Tools":['React','Node js','Material UI','Git','GitHub','Trello','Docker','VsCode','Google Chrome','Postgres'],
+//     "Link":"https://github.com/atlp-rwanda/Avengers-Phantom-FE"
 
 
-},
+// },
 {
     "projectCode":"2023001",
     "projectName":"Women training managment system",
@@ -377,7 +394,9 @@ export const projects=[
     <p>
         Women training managment system is an e-learning platform developed to help female members of Seventh day adventist church to attend and take training courses remotely.
         This systems consists of various lessons with different categories and each registered member has access to courses which are on or below his/her level.
-        The user is allowed to sit for an exam(which can be done also through this system) if and only if he/she has completed the course
+        The user is allowed to sit for an exam(which can be done also through this system) if and only if he/she has completed the course.
+
+        In this project i develped both frontend and backend parts of the system and performed integration of two parts
     </p>`,
     "contributions":``,
 
@@ -446,7 +465,7 @@ export const projects=[
 },
 {
     "projectCode":"2023011",
-    "projectName":"SMART CAR PARKING SYSTEM",
+    "projectName":"Smart car parking system",
     "icon":home,
     "yearDeveloped":"2023",
     "projectDescription":"Parking project",
@@ -534,6 +553,88 @@ export const projects=[
 
 
 },
+{
+    "projectCode":"2023012",
+    "projectName":"Gereranya(UI/UX)",
+    "icon":holder,
+    "yearDeveloped":"2023",
+    "projectDescription":"Banking project",
+    "developedBy":"Individual",
+    "overview":`
+    <p>
+        GERERANYA is as application of National Bank of Rwanda that allows consumers of financial services to compare costs of different services from financiakl services providers.
+        This work  contains UI/UX designs for web and mobile application and it was competing in Web Comparator Design Competition of BNR in May 2023, where it was marked 67%.
+    </p><br/>`,
+    "contributions":``,
+
+    "pages":[
+        {
+            "image":ghome,
+            "page":"Homepage",
+        },
+        {
+            "image":Banks,
+            "page":"List of banks",
+        },
+        {
+            "image":cardscompare,
+            "page":"Compare cards from different banks",
+        },
+        {
+            "image":loanscompare,
+            "page":"Compare loans from different banks",
+        },
+        {
+            "image":accountreq,
+            "page":"Compare banking accounts from different banks ",
+        },
+        {
+            "image":calculator,
+            "page":"Calculating loans intresets from different banks",
+        },
+        {
+            "image":services,
+            "page":"All financial services",
+        },
+        {
+            "image":eservicescompare,
+            "page":"E-services comparisons",
+        },       
+  
+    ],
+    "Tools":['Figma'],
+    "Link":"https://www.figma.com/file/XwYU9IG8WuKkURLtkkbWEa/GERERANYA-BNR?type=design&node-id=0%3A1&mode=design&t=HlJjuynYgcrriRmH-1"
+
+
+},
+{
+    "projectCode":"2023112",
+    "projectName":"Vehicle spare parts project(APIs)",
+    "icon":vsp,
+    "yearDeveloped":"2023",
+    "projectDescription":"E-commerce project",
+    "developedBy":"Individual",
+    "overview":`
+    <p>
+       Vehicle spare parts projects is an E-commerce project which allow users to order and purchase vehicle parts online.
+       This project includes covers different operations like authentication,CRUDs operations,ordering operations,verifications,generates various reorts,etc,
+    </p><br/>`,
+    "contributions":``,
+
+    "pages":[
+        {'image':users,'page':"Users APIs"},
+        {'image':orders,'page':"Ordering APIs"},
+        {'image':products,'page':"Products APIs"},
+        {'image':auth,'page':"Authentication APIs"},
+
+
+    ],
+    "Tools":['Node js','Express server','Git','GitHub','VsCode','Claudinary','MongoDB'],
+    "Link":"http://vspdealers.onrender.com/documentation"
+
+
+},
+
 ]
 
 

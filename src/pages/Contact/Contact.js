@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { scaleVariants } from '../../constants/scaleVariants'
+import { Link } from 'react-router-dom'
 
 export default function Contact() {
     return(
@@ -18,8 +19,7 @@ export default function Contact() {
                         <p>You can interact with me by clicking the button bellow. Any question,ideas or you can just say hi!</p>
                     </div>
                     <div className='w-52 mx-auto'>
-                        <button className='border-btn border-2 text-secondary_2 py-2 px-4 w-52 text-center font-bold cursor-pointer duration-300 ease-in-out bg-btn'>Say Hi</button>
-
+                        <Link to={"mailto:irafasha.jedy12@gmail.com"} className='border-btn border-2 text-secondary_2 py-2 px-4 w-52 text-center font-bold cursor-pointer duration-300 ease-in-out bg-btn'>Say Hi</Link>
                     </div>
 
 
