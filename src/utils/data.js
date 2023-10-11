@@ -333,7 +333,7 @@ import accountreq from '../assets/gereranya/accountreq.PNG';
 import eservicescompare from '../assets/gereranya/eservicescompare.png'
 
 
-import vsp from '../assets/vsp/vsp.png'
+import vsp from '../assets/vsp/vsp.PNG'
 import auth from '../assets/vsp/auth.png'
 import users from '../assets/vsp/users.png'
 import products from '../assets/vsp/products.png'
