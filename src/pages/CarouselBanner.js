@@ -40,7 +40,7 @@ export default function CarouselBanner() {
 
               <div
               className='py-2 my-8 font-bold cursor-pointer duration-300 ease-in-out animate-pulse hover:bg-opacity-90  text-btn hover:dark:bg-opacity-50'>
-                <Link to={"https://www.canva.com/design/DAFqBBzSlpI/31KtXFDuk-8RN3xzmJwkpQ/view?utm_content=DAFqBBzSlpI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"} 
+                <Link to={"https://docs.google.com/document/d/1BiLz00uzeCuBnxPTylLltGmfRm79VKIe/edit?usp=sharing&ouid=118215390459819378421&rtpof=true&sd=true"} 
                 className='flex justify-start gap-2' target='_blank'>
                   Get my resume <BsArrowRight className='my-1'/>
                 </Link>
