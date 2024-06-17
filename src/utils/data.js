@@ -341,6 +341,8 @@ import orders from '../assets/vsp/orders.png'
 
 import bpe from '../assets/BPE.PNG'
 
+import dokter from '../assets/dokter.PNG'
+
 
 export const projects=[
 //     {
@@ -656,7 +658,27 @@ export const projects=[
 
 
 },
+{
+    "projectCode":"2023012",
+    "projectName":"Booking Dokter",
+    "icon":dokter,
+    "yearDeveloped":"2023",
+    "projectDescription":"Health Services project",
+    "developedBy":"Individual",
+    "overview":`
+    <p>
+    The doctor's appointment is digital platform designed to streamline and enhance the process of scheduling and managing appointment between patients and medical practitioners.
+    This system offers an efficient and user-friendly interface for patients to view available time slots,selects preferred doctors and book appointments at their convenience. Medical individuals can manage their schedules,track patient appointments, and efficiently allocate their time.
+    The system aims to reduce waiting times,enhance patient-doctor communication and improve ob=verall healthcare service delivery.
+    </p><br/>`,
+    "contributions":``,
 
+    "pages":[],
+    "Tools":['React','Node js','Tailwind css','Git','GitHub','VsCode','Google Chrome','MongoDB'],
+    "Link":"https://dr-appointment-project.netlify.app/"
+
+
+},
 ]
 
 
