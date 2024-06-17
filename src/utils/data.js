@@ -339,6 +339,8 @@ import users from '../assets/vsp/users.png'
 import products from '../assets/vsp/products.png'
 import orders from '../assets/vsp/orders.png'
 
+import bpe from '../assets/BPE.PNG'
+
 
 export const projects=[
 //     {
