@@ -639,7 +639,7 @@ export const projects=[
 {
     "projectCode":"2024012",
     "projectName":"Budget PE(UI/UX)",
-    "icon":holder,
+    "icon":bpe,
     "yearDeveloped":"2024",
     "projectDescription":"Budget Planning and Execution project",
     "developedBy":"Individual",
