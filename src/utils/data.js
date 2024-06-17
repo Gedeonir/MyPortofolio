@@ -634,6 +634,26 @@ export const projects=[
 
 
 },
+{
+    "projectCode":"2024012",
+    "projectName":"Budget PE(UI/UX)",
+    "icon":holder,
+    "yearDeveloped":"2024",
+    "projectDescription":"Budget Planning and Execution project",
+    "developedBy":"Individual",
+    "overview":`
+    <p>
+           Budget PE is software solution that streamlines the entire budgeting process, from formulation to execution, providing 
+            transparency, and accuracy, and facilitating collaboration among government departments.
+    </p><br/>`,
+    "contributions":``,
+
+    "pages":[],
+    "Tools":['Figma'],
+    "Link":"https://www.figma.com/proto/gFhswNAQBaLOiFbsbrRr5Y/Budget?page-id=0%3A1&type=design&node-id=1-2&viewport=340%2C619%2C1&t=zgOi0QjBqL4eVifL-1&scaling=scale-down&mode=design"
+
+
+},
 
 ]
 
