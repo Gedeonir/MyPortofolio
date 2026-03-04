@@ -84,8 +84,6 @@ export default function Projects(){
                     <BsFillNodePlusFill size={35}/>
                 </div> */}
             </motion.div>
-            <motion.hr whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }} className='border-dark_primary border-2 w-24 mb-2'/>
-
 
             <div className="grid lg:grid-cols-3 gap-4 text-dark_primary py-4">
                 {projects.map(project=>(

@@ -26,7 +26,7 @@ export default function Skills() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="font-bold tracking-widest text-dark_primary dark:text-white mb-2">
+        <h2 className="text-lg lg:text-xl font-bold tracking-widest text-dark_primary dark:text-white mb-2">
           My Skills
         </h2>
         <hr className="w-24 border-2 border-[#2e94c5]" />
