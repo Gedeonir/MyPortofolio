@@ -17,6 +17,7 @@ function ProjectCard({ project }) {
   const navigate = useNavigate();
 
   return (
+    
     <motion.div
       whileHover={{ scale: 1.03, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
       whileInView={{ opacity: [0, 1], y: [50, 0] }}
@@ -72,12 +73,12 @@ export default function Projects(){
 
 
     return(
-        <div className='lg:px-8 px-4 py-8'>
+        <div id="projects" className='lg:px-20 px-6 py-8'>
             <motion.div
             whileInView={{ y: [100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }} 
             className="flex justify-between">
-                <h1 className='font-bold uppercase relative tracking-widest text-dark_primary  w-full'>Projects</h1>
+                <h1 className='text-lg lg:text-xl font-bold relative tracking-widest text-dark_primary  w-full'>Projects</h1>
 
                 {/* <div className='text-btn font-bold cursor-pointer duration-300 ease-in-out' onClick={()=>setOpenRegisterModal(!openRegisterModal)}>
                     <BsFillNodePlusFill size={35}/>

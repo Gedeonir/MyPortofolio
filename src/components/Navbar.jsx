@@ -10,7 +10,6 @@ const LINKS = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export function NavBar() {
@@ -33,7 +32,7 @@ export function NavBar() {
       </ul>
 
       {/* Right Side: Dark Mode + Hamburger */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 z-50">
         <Switcher />
         <button
           onClick={() => setOpenMenu(!openMenu)}
