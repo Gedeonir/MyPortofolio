@@ -17,10 +17,10 @@ const Index = (prop) => {
       <div className="bg-secondary min-h-screen max-h-screen overflow-y-auto overflow-x-hidden w-full dark:bg-dark_secondary">
         <NavBar openMenu={openMenu} setOpenMenu={setOpenMenu}/>
         <CarouselBanner id="About"/>
+        <About/>
         <Skills id="Skills"/>
         <Tools/>
         <Projects id="Projects"/>
-        <Contact id="Get in touch"/>
         <Footer/>
 
         {openMenu&&<PhoneMenu/>}

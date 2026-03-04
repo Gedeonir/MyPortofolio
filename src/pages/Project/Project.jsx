@@ -13,29 +13,53 @@ import { projects } from '../../utils/data';
 import webdev from '../../assets/icons/webdev.png'
 import { useLocation, useNavigate } from 'react-router-dom';
 
-function ProjectCard({openDetails,setOpenDetails,openDeleteModal,setOpenDeleteModal,project,setId}){
-    const [open,setOpen]=React.useState(false);
-    const navigate=useNavigate();
-    
-    return(
-        <motion.div  whileInView={{ y: [100, 0], opacity: [0, 1] }}      transition={{ duration: 0.5 }}
-        className='relative isolate flex flex-col justify-end overflow-hidden rounded-t-lg px-4 pb-4 pt-40 w-full mx-auto mt-2 group'>
-            <img src={project.icon?project.icon:webdev} alt='profile_image' className='absolute inset-0 h-full w-full object-cover'/>
+function ProjectCard({ project }) {
+  const navigate = useNavigate();
 
-            <div className='absolute inset-0 bg-gradient-to-t from-[rgb(33,33,33)] via-[rgb(33,33,33,0.3)]'></div>
-            <h3 className='z-10 mt-3 text-lg font-bold text-secondary'>{project.projectName}</h3>
-            <div className='z-10 gap-y-1 overflow-hidden text-sm leading-6 text-yellow font-bold'>{project.projectDescription}</div>
-            <div
-            className='w-full  h-full inset-0 z-20 dark:bg-opacity-30 bg-opacity-50 hidden group-hover:flex items-center absolute top-0 left-0 right-0 px-4 py-8 bg-secondary_2 dark:bg-dark_secondary_2'>
-                <div  className='border-btn border-2 mx-auto text-secondary py-2 px-4 w-52 my-8 text-center font-bold cursor-pointer duration-300 ease-in-out  bg-btn uppercase' 
-                onClick={()=>{
-                    navigate(`/project?id=${project.projectCode}`,{replace:true})
-                }}>
-                    Explore more
-                </div>
-            </div>
-        </motion.div>
-    )
+  return (
+    <motion.div
+      whileHover={{ scale: 1.03, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
+      whileInView={{ opacity: [0, 1], y: [50, 0] }}
+      transition={{ duration: 0.5 }}
+      className="relative rounded-2xl overflow-hidden cursor-pointer group"
+    >
+      {/* Project Image */}
+      <img
+        src={project.icon || webdev}
+        alt={project.projectName}
+        className="w-full h-72 object-cover rounded-2xl"
+      />
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/80 rounded-2xl"></div>
+
+      {/* Content */}
+      <div className="absolute bottom-4 left-4 right-4 text-white z-10">
+        <h3 className="text-md font-bold uppercase">{project.projectName}</h3>
+        <p className="text-yellow text-xs mt-1 font-semibold">{project.projectDescription}</p>
+
+        {/* Explore Button */}
+        <div
+          onClick={() => navigate(`/project?id=${project.projectCode}`, { replace: true })}
+          className="mt-4 w-48 py-2 px-4 text-center font-bold rounded-lg bg-btn text-white uppercase transition duration-300 hover:bg-opacity-90"
+        >
+          Explore More
+        </div>
+
+        {/* Tech Stack Badges */}
+        <div className="mt-3 flex flex-wrap gap-2">
+          {project.Tools?.map((tech) => (
+            <span
+              key={tech}
+              className="bg-yellow text-primary px-2 py-1 rounded-full text-xs font-bold"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
+    </motion.div>
+  );
 }
 
 
@@ -62,7 +86,7 @@ export default function Projects(){
             <motion.hr whileInView={{ y: [100, 0], opacity: [0, 1] }} transition={{ duration: 0.5 }} className='border-dark_primary border-2 w-24 mb-2'/>
 
 
-            <div className="grid lg:grid-cols-3 gap-2 text-dark_primary py-4">
+            <div className="grid lg:grid-cols-3 gap-4 text-dark_primary py-4">
                 {projects.map(project=>(
                     <ProjectCard key={project.projectCode} setOpenDetails={setOpenDetails} openDetails={openDetails} openDeleteModal={openDeleteModal} setOpenDeleteModal={setOpenDeleteModal} project={project}/>
                 ))}

@@ -1,400 +1,371 @@
-import css from '../assets/icons/CSS.png'
-import reactLogo from '../assets/icons/react.png'
-import nodejs from '../assets/icons/Nodejs.png'
-import html from '../assets/icons/html.png'
-import django from '../assets/icons/django.png'
-import docker from '../assets/icons/docker.png'
-import figma from '../assets/icons/figma.png'
-import gdesign from '../assets/icons/gdesign.PNG'
-import graphql from '../assets/icons/graphql.png'
-import mongodb from '../assets/icons/mongodb.PNG'
-import mysql from '../assets/icons/mysql.png'
-import office from '../assets/icons/office.png'
-import php from '../assets/icons/php.png'
-import postgres from '../assets/icons/postgress.png'
-import postman from '../assets/icons/postman.png'
-import photoshop from '../assets/icons/ps.png'
-import js from '../assets/icons/js.png'
-import git from '../assets/icons/Git.png'
-import github from '../assets/icons/Github.png'
-import trello from '../assets/icons/trello.png'
-import vscode from '../assets/icons/vscode.png'
-import tcss from '../assets/icons/tcss.png'
-import canva from  '../assets/icons/canva.png'
-import typeScript from  '../assets/icons/typescript.png'
-import dbmgt from  '../assets/icons/dbmgt.png'
+import css from "../assets/icons/CSS.png";
+import reactLogo from "../assets/icons/react.png";
+import nodejs from "../assets/icons/Nodejs.png";
+import html from "../assets/icons/html.png";
+import django from "../assets/icons/django.png";
+import docker from "../assets/icons/docker.png";
+import figma from "../assets/icons/figma.png";
+import gdesign from "../assets/icons/gdesign.PNG";
+import graphql from "../assets/icons/graphql.png";
+import mongodb from "../assets/icons/mongodb.PNG";
+import mysql from "../assets/icons/mysql.png";
+import office from "../assets/icons/office.png";
+import php from "../assets/icons/php.png";
+import postgres from "../assets/icons/postgress.png";
+import postman from "../assets/icons/postman.png";
+import photoshop from "../assets/icons/ps.png";
+import js from "../assets/icons/js.png";
+import git from "../assets/icons/Git.png";
+import github from "../assets/icons/Github.png";
+import trello from "../assets/icons/trello.png";
+import vscode from "../assets/icons/vscode.png";
+import tcss from "../assets/icons/tcss.png";
+import canva from "../assets/icons/canva.png";
+import typeScript from "../assets/icons/typescript.png";
+import dbmgt from "../assets/icons/dbmgt.png";
 
-import be from '../assets/icons/be.PNG'
-import analysis from '../assets/icons/analysis.png'
-import cicd from '../assets/icons/cicd.png'
-import communication from '../assets/icons/communication.png'
-import conflictmgt from '../assets/icons/conflictmgt.png'
-import deploy from '../assets/icons/deploy.png'
-import dsa from '../assets/icons/dsa.PNG'
-import fe from '../assets/icons/fe.PNG'
-import ICTSupport from '../assets/icons/ICTSupport.PNG'
-import maintenance from '../assets/icons/maintenance.png'
-import Mentorship from '../assets/icons/Mentorship.png'
-import mobileapp from '../assets/icons/mobileapp.png'
-import projectp from '../assets/icons/projectPlanning.png'
-import sfttest from '../assets/icons/sfttest.png'
-import team from '../assets/icons/team.png'
-import webdev from '../assets/icons/webdev.png'
-import uiux from '../assets/icons/uiux.png'
-
+import be from "../assets/icons/be.PNG";
+import analysis from "../assets/icons/analysis.png";
+import cicd from "../assets/icons/cicd.png";
+import communication from "../assets/icons/communication.png";
+import conflictmgt from "../assets/icons/conflictmgt.png";
+import deploy from "../assets/icons/deploy.png";
+import dsa from "../assets/icons/dsa.PNG";
+import fe from "../assets/icons/fe.PNG";
+import ICTSupport from "../assets/icons/ICTSupport.PNG";
+import maintenance from "../assets/icons/maintenance.png";
+import Mentorship from "../assets/icons/Mentorship.png";
+import mobileapp from "../assets/icons/mobileapp.png";
+import projectp from "../assets/icons/projectPlanning.png";
+import sfttest from "../assets/icons/sfttest.png";
+import team from "../assets/icons/team.png";
+import webdev from "../assets/icons/webdev.png";
+import uiux from "../assets/icons/uiux.png";
 
 //SCPS
-import home from '../assets/projectscps/home.png'
-import dashboard from '../assets/projectscps/dashboard.png'
-import login from '../assets/projectscps/login.png'
-import addDriver from '../assets/projectscps/addDriver.png'
-import driversList from '../assets/projectscps/driversList.png'
-import parkings from '../assets/projectscps/parkings.png'
-import payements from '../assets/projectscps/payements.png'
-import request from '../assets/projectscps/requests.png'
-import driversHistory from '../assets/projectscps/driverHistory.png'
-import DriversDashboard from '../assets/projectscps/DriversDashboard.png'
-import DriverProfile from '../assets/projectscps/DriverProfile.png'
-import bookparkingform from '../assets/projectscps/bookparkingform.PNG'
+import home from "../assets/projectscps/home.png";
+import dashboard from "../assets/projectscps/dashboard.png";
+import login from "../assets/projectscps/login.png";
+import addDriver from "../assets/projectscps/addDriver.png";
+import driversList from "../assets/projectscps/driversList.png";
+import parkings from "../assets/projectscps/parkings.png";
+import payements from "../assets/projectscps/payements.png";
+import request from "../assets/projectscps/requests.png";
+import driversHistory from "../assets/projectscps/driverHistory.png";
+import DriversDashboard from "../assets/projectscps/DriversDashboard.png";
+import DriverProfile from "../assets/projectscps/DriverProfile.png";
+import bookparkingform from "../assets/projectscps/bookparkingform.PNG";
+import assesly from "../assets/AsseslyLogo.png";
+import MN from "../assets/MN.png"
 
-export const tools=[
-    {
-        "toolID":1,
-        "toolName":"React",
-        "icon":reactLogo
+export const tools = [
+  {
+    toolID: 1,
+    toolName: "React",
+    icon: reactLogo,
+  },
+  {
+    toolID: 2,
+    toolName: "Node js",
+    icon: nodejs,
+  },
+  {
+    toolID: 3,
+    toolName: "CSS",
+    icon: css,
+  },
+  {
+    toolID: 4,
+    toolName: "HTML",
+    icon: html,
+  },
+  {
+    toolID: 5,
+    toolName: "GraphQL",
+    icon: graphql,
+  },
+  {
+    toolID: 6,
+    toolName: "Postman",
+    icon: postman,
+  },
+  {
+    toolID: 7,
+    toolName: "Django",
+    icon: django,
+  },
+  {
+    toolID: 8,
+    toolName: "PHP",
+    icon: php,
+  },
+  {
+    toolID: 9,
+    toolName: "MySQL",
+    icon: mysql,
+  },
+  {
+    toolID: 15,
+    toolName: "Git",
+    icon: git,
+  },
+  {
+    toolID: 10,
+    toolName: "Docker",
+    icon: docker,
+  },
 
-    },
-    {
-        "toolID":2,
-        "toolName":"Node js",
-        "icon":nodejs
+  {
+    toolID: 12,
+    toolName: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    toolID: 13,
+    toolName: "Postgres",
+    icon: postgres,
+  },
+  {
+    toolID: 14,
+    toolName: "Microsoft office",
+    icon: office,
+  },
+  {
+    toolID: 16,
+    toolName: "Github",
+    icon: github,
+  },
+  {
+    toolID: 17,
+    toolName: "Trello",
+    icon: trello,
+  },
+  {
+    toolID: 18,
+    toolName: "Tailwind CSS",
+    icon: tcss,
+  },
+  {
+    toolID: 19,
+    toolName: "Photoshop",
+    icon: photoshop,
+  },
+  {
+    toolID: "11",
+    toolName: "Figma",
+    icon: figma,
+  },
+  {
+    toolID: 20,
+    toolName: "Canva",
+    icon: canva,
+  },
+  {
+    toolID: 21,
+    toolName: "VS Code",
+    icon: vscode,
+  },
+  {
+    toolID: 22,
+    toolName: "JavaScript",
+    icon: js,
+  },
+  {
+    toolID: 23,
+    toolName: "TypeScript",
+    icon: typeScript,
+  },
+  {
+    toolID: 24,
+    toolName: "React Native",
+    icon: reactLogo,
+  },
+];
 
-    },
-    {
-        "toolID":3,
-        "toolName":"CSS",
-        "icon":css
+export const skills = [
+  {
+    skillID: 1,
+    skillName: "Web app development",
+    icon: webdev,
+  },
+  {
+    skillID: 2,
+    skillName: "Mobile app development",
+    icon: mobileapp,
+  },
 
-    },
-    {
-        "toolID":4,
-        "toolName":"HTML",
-        "icon":html
+  {
+    skillID: 6,
+    skillName: "Database management",
+    icon: dbmgt,
+  },
+  {
+    skillID: 7,
+    skillName: "Graphics design",
+    icon: gdesign,
+  },
+  {
+    skillID: 8,
+    skillName: "Software testing",
+    icon: sfttest,
+  },
+  {
+    skillID: 9,
+    skillName: "Data structures and algorithm",
+    icon: dsa,
+  },
+  {
+    skillID: 10,
+    skillName: "Backend development",
+    icon: be,
+  },
+  {
+    skillID: 11,
+    skillName: "Frontend development",
+    icon: fe,
+  },
+  {
+    skillID: 12,
+    skillName: "Project planning and management",
+    icon: projectp,
+  },
+  {
+    skillID: 13,
+    skillName: "Mentorship",
+    icon: Mentorship,
+  },
+  {
+    skillID: 14,
+    skillName: "Software deployments",
+    icon: deploy,
+  },
+  {
+    skillID: 15,
+    skillName: "Software maintenance",
+    icon: maintenance,
+  },
+  {
+    skillID: 3,
+    skillName: "UI/UX design",
+    icon: uiux,
+  },
+  {
+    skillID: 4,
+    skillName: "ICT support",
+    icon: ICTSupport,
+  },
+  {
+    skillID: 5,
+    skillName: "CI/CD",
+    icon: cicd,
+  },
+  {
+    skillID: 16,
+    skillName: "System analysis",
+    icon: analysis,
+  },
+  {
+    skillID: 17,
+    skillName: "Conflict management and resolution",
+    icon: conflictmgt,
+  },
+  {
+    skillID: 18,
+    skillName: "Team player",
+    icon: team,
+  },
+  {
+    skillID: 19,
+    skillName: "Effective communication",
+    icon: communication,
+  },
+];
 
-    },
-    {
-        "toolID":5,
-        "toolName":"GraphQL",
-        "icon":graphql
+import userhomepage from "../assets/projectwmtms/userhomepage.png";
+import viewCourseLesson from "../assets/projectwmtms/viewCourseLesson.png";
+import registeredMembers from "../assets/projectwmtms/registeredMembers.png";
+import memberRegister from "../assets/projectwmtms/memberRegister.png";
+import memberlogin from "../assets/projectwmtms/memberlogin.png";
+import memberDetails from "../assets/projectwmtms/memberDetails.PNG";
+import feedback from "../assets/projectwmtms/feedback.png";
+import exam from "../assets/projectwmtms/exam.png";
+import enrolled from "../assets/projectwmtms/enrolled.png";
+import courses from "../assets/projectwmtms/courses.png";
+import courseDetails from "../assets/projectwmtms/courseDetails.png";
+import adminhome from "../assets/projectwmtms/adminhome.png";
+import addLesson from "../assets/projectwmtms/addLesson.png";
+import addCourse from "../assets/projectwmtms/addCourse.png";
 
-    },
-    {
-        "toolID":6,
-        "toolName":"Postman",
-        "icon":postman
+import holder from "../assets/gereranya/holder.png";
+import ghome from "../assets/gereranya/ghome.png";
+import Banks from "../assets/gereranya/Banks.png";
+import cardscompare from "../assets/gereranya/cardscompare.PNG";
+import calculator from "../assets/gereranya/loanCalculator.png";
+import loanscompare from "../assets/gereranya/loanscompare.png";
+import services from "../assets/gereranya/services.png";
+import accountreq from "../assets/gereranya/accountreq.PNG";
+import eservicescompare from "../assets/gereranya/eservicescompare.png";
 
-    },
-    {
-        "toolID":7,
-        "toolName":"Django",
-        "icon":django
+import vsp from "../assets/vsp/vsp.PNG";
+import auth from "../assets/vsp/auth.png";
+import users from "../assets/vsp/users.png";
+import products from "../assets/vsp/products.png";
+import orders from "../assets/vsp/orders.png";
 
-    },
-    {
-        "toolID":8,
-        "toolName":"PHP",
-        "icon":php
+import bpe from "../assets/BPE.PNG";
 
-    },
-    {
-        "toolID":9,
-        "toolName":"MySQL",
-        "icon":mysql
+import dokter from "../assets/dokter.PNG";
 
-    },
-    {
-        "toolID":15,
-        "toolName":"Git",
-        "icon":git
+export const projects = [
+  //     {
+  //     "projectCode":"2022001",
+  //     "projectName":"Phantom project",
+  //     "icon":"",
+  //     "yearDeveloped":"2022",
+  //     "projectDescription":"Bus tracking project",
+  //     "developedBy":"Team",
+  //     "overview":`
+  //     <p>
+  //         Phantom project is a bus tracking project which was developed in 2022 during my training time at Andela. It was developed by team of 10-15 developers.
+  //         The project is intended to help people who are in need of travelling from one place to another to know information of buses,these information
+  //         includes but not limited to:
+  //     </p><br/>
+  //     <ul>
+  //         <li>-Bus location</li>
+  //         <li>-Distance between bus and passenger location and time it will take to reach to him or her</li>
+  //         <li>-Bus driver</li>
+  //         <li>-Bus origin and destination</li>
+  //         etc..
+  //     </ul>
+  //     `,
+  //     "contributions":`
+  //     <p>During this project i have contributed to various stages of its development such as:</p><br/>
+  //     <ul>
+  //         <li>-Contributed in UI/UX designs of project like CRUD operations of buses</li>
+  //         <li>-Collaborated closely with my team to prioritize and tackle critical issues effectively.</li>
+  //         <li>-Debugged potential software errors and streamlined error handling processes to optimize application performance.</li>
+  //         <li>-Writting and running tests for Backend Api</li>
+  //         <li>-Supporting in integration of Backend APIs with Frontend project</li>
+  //         <li>-Coding the Frontend part of the project using React framework</li>
+  //         <li>-Leading the software development team</li>
+  //         <li>-Dockerizing the project</li>
+  //         <li>-Conducting code reviews</li>
+  //     </ul>
+  //     `,
 
-    },
-    {
-        "toolID":10,
-        "toolName":"Docker",
-        "icon":docker
+  //     "pages":[],
+  //     "Tools":['React','Node js','Material UI','Git','GitHub','Trello','Docker','VsCode','Google Chrome','Postgres'],
+  //     "Link":"https://github.com/atlp-rwanda/Avengers-Phantom-FE"
 
-    },
-   
-    {
-        "toolID":12,
-        "toolName":"MongoDB",
-        "icon":mongodb
-
-    },{
-        "toolID":13,
-        "toolName":"Postgres",
-        "icon":postgres
-
-    },
-    {
-        "toolID":14,
-        "toolName":"Microsoft office",
-        "icon":office
-
-    },
-    {
-        "toolID":16,
-        "toolName":"Github",
-        "icon":github
-
-    },
-    {
-        "toolID":17,
-        "toolName":"Trello",
-        "icon":trello
-
-    },
-    {
-        "toolID":18,
-        "toolName":"Tailwind CSS",
-        "icon":tcss
-
-    },
-    {
-        "toolID":19,
-        "toolName":"Photoshop",
-        "icon":photoshop
-
-    },
-    {
-        "toolID":"11",
-        "toolName":"Figma",
-        "icon":figma
-
-    },
-    {
-        "toolID":20,
-        "toolName":"Canva",
-        "icon":canva
-
-    },
-    {
-        "toolID":21,
-        "toolName":"VS Code",
-        "icon":vscode
-
-    },
-    {
-        "toolID":22,
-        "toolName":"JavaScript",
-        "icon":js
-
-    },
-    {
-        "toolID":23,
-        "toolName":"TypeScript",
-        "icon":typeScript
-
-    },
-    {
-        "toolID":24,
-        "toolName":"React Native",
-        "icon":reactLogo
-
-    },
-]
-
-
-export const skills=[
-    {
-       "skillID":1,
-       "skillName":"Web app development",
-       "icon":webdev
-    },
-    {
-        "skillID":2,
-        "skillName":"Mobile app development",
-        "icon":mobileapp 
-    },
-  
-    {
-        "skillID":6,
-        "skillName":"Database management",
-        "icon":dbmgt
-    },
-    {
-        "skillID":7,
-        "skillName":"Graphics design",
-        "icon":gdesign
-    },
-    {
-        "skillID":8,
-        "skillName":"Software testing",
-        "icon":sfttest
-    },
-    {
-        "skillID":9,
-        "skillName":"Data structures and algorithm",
-        "icon":dsa
-    },
-    {
-        "skillID":10,
-        "skillName":"Backend development",
-        "icon":be
-    },
-    {
-        "skillID":11,
-        "skillName":"Frontend development",
-        "icon":fe
-    },
-    {
-        "skillID":12,
-        "skillName":"Project planning and management",
-        "icon":projectp
-    },
-    {
-        "skillID":13,
-        "skillName":"Mentorship",
-        "icon":Mentorship
-    },
-    {
-        "skillID":14,
-        "skillName":"Software deployments",
-        "icon":deploy
-    },
-    {
-        "skillID":15,
-        "skillName":"Software maintenance",
-        "icon":maintenance
-    },
-    {
-        "skillID":3,
-        "skillName":"UI/UX design",
-        "icon":uiux
-    },
-    {
-        "skillID":4,
-        "skillName":"ICT support",
-        "icon":ICTSupport
-    },
-    {
-        "skillID":5,
-        "skillName":"CI/CD",
-        "icon":cicd 
-    },
-    {
-        "skillID":16,
-        "skillName":"System analysis",
-        "icon":analysis
-    },
-    {
-        "skillID":17,
-        "skillName":"Conflict management and resolution",
-        "icon":conflictmgt
-    },
-    {
-        "skillID":18,
-        "skillName":"Team player",
-        "icon":team 
-    },
-    {
-        "skillID":19,
-        "skillName":"Effective communication",
-        "icon":communication 
-    },  
-
-]
-
-
-import userhomepage from '../assets/projectwmtms/userhomepage.png';
-import viewCourseLesson from '../assets/projectwmtms/viewCourseLesson.png';
-import registeredMembers from '../assets/projectwmtms/registeredMembers.png';
-import memberRegister from '../assets/projectwmtms/memberRegister.png';
-import memberlogin from '../assets/projectwmtms/memberlogin.png';
-import memberDetails from '../assets/projectwmtms/memberDetails.PNG';
-import feedback from '../assets/projectwmtms/feedback.png';
-import exam from '../assets/projectwmtms/exam.png';
-import enrolled from '../assets/projectwmtms/enrolled.png';
-import courses from '../assets/projectwmtms/courses.png';
-import courseDetails from '../assets/projectwmtms/courseDetails.png';
-import adminhome from '../assets/projectwmtms/adminhome.png';
-import addLesson from '../assets/projectwmtms/addLesson.png';
-import addCourse from '../assets/projectwmtms/addCourse.png';
-
-
-import holder from '../assets/gereranya/holder.png';
-import ghome from '../assets/gereranya/ghome.png';
-import Banks from '../assets/gereranya/Banks.png';
-import cardscompare from '../assets/gereranya/cardscompare.PNG';
-import calculator from '../assets/gereranya/loanCalculator.png';
-import loanscompare from '../assets/gereranya/loanscompare.png';
-import services from '../assets/gereranya/services.png';
-import accountreq from '../assets/gereranya/accountreq.PNG';
-import eservicescompare from '../assets/gereranya/eservicescompare.png'
-
-
-import vsp from '../assets/vsp/vsp.PNG'
-import auth from '../assets/vsp/auth.png'
-import users from '../assets/vsp/users.png'
-import products from '../assets/vsp/products.png'
-import orders from '../assets/vsp/orders.png'
-
-import bpe from '../assets/BPE.PNG'
-
-import dokter from '../assets/dokter.PNG'
-
-
-export const projects=[
-//     {
-//     "projectCode":"2022001",
-//     "projectName":"Phantom project",
-//     "icon":"",
-//     "yearDeveloped":"2022",
-//     "projectDescription":"Bus tracking project",
-//     "developedBy":"Team",
-//     "overview":`
-//     <p>
-//         Phantom project is a bus tracking project which was developed in 2022 during my training time at Andela. It was developed by team of 10-15 developers.
-//         The project is intended to help people who are in need of travelling from one place to another to know information of buses,these information 
-//         includes but not limited to:
-//     </p><br/>
-//     <ul>
-//         <li>-Bus location</li>
-//         <li>-Distance between bus and passenger location and time it will take to reach to him or her</li>
-//         <li>-Bus driver</li>
-//         <li>-Bus origin and destination</li>
-//         etc..
-//     </ul>
-//     `,
-//     "contributions":`
-//     <p>During this project i have contributed to various stages of its development such as:</p><br/>
-//     <ul>
-//         <li>-Contributed in UI/UX designs of project like CRUD operations of buses</li>
-//         <li>-Collaborated closely with my team to prioritize and tackle critical issues effectively.</li>
-//         <li>-Debugged potential software errors and streamlined error handling processes to optimize application performance.</li>
-//         <li>-Writting and running tests for Backend Api</li>
-//         <li>-Supporting in integration of Backend APIs with Frontend project</li>
-//         <li>-Coding the Frontend part of the project using React framework</li>
-//         <li>-Leading the software development team</li>
-//         <li>-Dockerizing the project</li>
-//         <li>-Conducting code reviews</li>
-//     </ul>
-//     `,
-
-//     "pages":[],
-//     "Tools":['React','Node js','Material UI','Git','GitHub','Trello','Docker','VsCode','Google Chrome','Postgres'],
-//     "Link":"https://github.com/atlp-rwanda/Avengers-Phantom-FE"
-
-
-// },
-{
-    "projectCode":"2023001",
-    "projectName":"Women training managment system",
-    "icon":userhomepage,
-    "yearDeveloped":"2023",
-    "projectDescription":"E-Learning project",
-    "developedBy":"Individual",
-    "overview":`
+  // },
+  {
+    projectCode: "2023001",
+    projectName: "Women training managment system",
+    icon: userhomepage,
+    yearDeveloped: "2023",
+    projectDescription: "E-Learning project",
+    developedBy: "Individual",
+    overview: `
     <p>
         Women training managment system is an e-learning platform developed to help female members of Seventh day adventist church to attend and take training courses remotely.
         This systems consists of various lessons with different categories and each registered member has access to courses which are on or below his/her level.
@@ -402,79 +373,77 @@ export const projects=[
 
         In this project i develped both frontend and backend parts of the system and performed integration of two parts
     </p>`,
-    "contributions":``,
+    contributions: ``,
 
-    "pages":[
-        {
-            "image":memberRegister,
-            "page":"Member Register"
-        },
-        {
-            "image":memberlogin,
-            "page":"Member Login"
-        },
-        {
-            "image":userhomepage,
-            "page":"Member homepage"
-        },
-        {
-            "image":courseDetails,
-            "page":"Course details"
-        },
-        {
-            "image":viewCourseLesson,
-            "page":"Course lesson"
-        },
-        {
-            "image":exam,
-            "page":"Exam"
-        },
-        {
-            "image":feedback,
-            "page":"FeedBack"
-        },
-        {
-            "image":adminhome,
-            "page":"Admin dashboard"
-        },
-        {
-            "image":courses,
-            "page":"All courses"
-        },
-        {
-            "image":enrolled,
-            "page":"User enrolled in course"
-        },
-        {
-            "image":addCourse,
-            "page":"Add new course"
-        },
-        {
-            "image":addLesson,
-            "page":"Add new lesson"
-        },
-        {
-            "image":registeredMembers,
-            "page":"All members registered"
-        },
-        {
-            "image":memberDetails,
-            "page":"One Member details"
-        },
+    pages: [
+      {
+        image: memberRegister,
+        page: "Member Register",
+      },
+      {
+        image: memberlogin,
+        page: "Member Login",
+      },
+      {
+        image: userhomepage,
+        page: "Member homepage",
+      },
+      {
+        image: courseDetails,
+        page: "Course details",
+      },
+      {
+        image: viewCourseLesson,
+        page: "Course lesson",
+      },
+      {
+        image: exam,
+        page: "Exam",
+      },
+      {
+        image: feedback,
+        page: "FeedBack",
+      },
+      {
+        image: adminhome,
+        page: "Admin dashboard",
+      },
+      {
+        image: courses,
+        page: "All courses",
+      },
+      {
+        image: enrolled,
+        page: "User enrolled in course",
+      },
+      {
+        image: addCourse,
+        page: "Add new course",
+      },
+      {
+        image: addLesson,
+        page: "Add new lesson",
+      },
+      {
+        image: registeredMembers,
+        page: "All members registered",
+      },
+      {
+        image: memberDetails,
+        page: "One Member details",
+      },
     ],
-    "Tools":['React','Node js','Tailwind css','Git','GitHub','VsCode','Google Chrome','MongoDB'],
-    "Link":"https://wmtms-fe.vercel.app"
-
-
-},
-{
-    "projectCode":"2023011",
-    "projectName":"Smart car parking system",
-    "icon":home,
-    "yearDeveloped":"2023",
-    "projectDescription":"Parking project",
-    "developedBy":"Team",
-    "overview":`
+    Tools: ["React", "Node js", "MongoDB"],
+    Link: "https://wmtms-fe.vercel.app",
+  },
+  {
+    projectCode: "2023011",
+    projectName: "Smart car parking system",
+    icon: home,
+    yearDeveloped: "2023",
+    projectDescription: "Parking project",
+    developedBy: "Team",
+    overview: `
     <p>
         SMART CAR PARKING SYSTEM is vehicle parking system that helps drivers to find vacant spot,using the IoT system which detects available parking slots and sends information to the user using web application.
         The purpose of SMART CAR PARKING SYSTEM is to help drivers to know exactly where there is unoccupied parking slot and facilitates them to book it before, as away of securing their place.
@@ -490,7 +459,7 @@ export const projects=[
     
     </p>
     `,
-    "contributions":`
+    contributions: `
         <ul>
             <li>-Contributed in developing user interfaces of the web application</li>
             <li>-Connecting web application with IoT devices</li>
@@ -500,188 +469,208 @@ export const projects=[
         </ul>
     `,
 
-    "pages":[
-        {
-            "image":home,
-            "page":"Homepage",
-        },
-        {
-            "image":login,
-            "page":"Login page",
-        },
-        {
-            "image":DriversDashboard,
-            "page":"Drivers dashboard",
-        },
-        {
-            "image":bookparkingform,
-            "page":"Book parking form",
-        },
-        {
-            "image":driversHistory,
-            "page":"Drivers parking history",
-        },
-        {
-            "image":DriverProfile,
-            "page":"Driver profile",
-        },
-        {
-            "image":dashboard,
-            "page":"Admin dashboard",
-        },
-        {
-            "image":driversList,
-            "page":"All registered drivers",
-        },
-        {
-            "image":addDriver,
-            "page":"Adding new driver",
-        },
-        {
-            "image":parkings,
-            "page":"All registered parkings",
-        },
-        {
-            "image":request,
-            "page":"All parking requests",
-        },
-        {
-            "image":payements,
-            "page":"Payements report",
-        },
-        
-  
+    pages: [
+      {
+        image: home,
+        page: "Homepage",
+      },
+      {
+        image: login,
+        page: "Login page",
+      },
+      {
+        image: DriversDashboard,
+        page: "Drivers dashboard",
+      },
+      {
+        image: bookparkingform,
+        page: "Book parking form",
+      },
+      {
+        image: driversHistory,
+        page: "Drivers parking history",
+      },
+      {
+        image: DriverProfile,
+        page: "Driver profile",
+      },
+      {
+        image: dashboard,
+        page: "Admin dashboard",
+      },
+      {
+        image: driversList,
+        page: "All registered drivers",
+      },
+      {
+        image: addDriver,
+        page: "Adding new driver",
+      },
+      {
+        image: parkings,
+        page: "All registered parkings",
+      },
+      {
+        image: request,
+        page: "All parking requests",
+      },
+      {
+        image: payements,
+        page: "Payements report",
+      },
     ],
-    "Tools":['HTML','BootStrap','Larvel','Git','GitHub','VsCode','Google Chrome','Xampp','Node MCU','JavaScript','C++','MySQL','RFID sensor','servomotors'],
-    "Link":"https://github.com/Gedeonir/SmartCarParkingSystem"
-
-
-},
-{
-    "projectCode":"2023012",
-    "projectName":"Gereranya(UI/UX)",
-    "icon":holder,
-    "yearDeveloped":"2023",
-    "projectDescription":"Banking project",
-    "developedBy":"Individual",
-    "overview":`
+    Tools: ["HTML + BootStrap", "Larvel", "MySQL", "IoT Syst"],
+    Link: "https://github.com/Gedeonir/SmartCarParkingSystem",
+  },
+  {
+    projectCode: "2023012",
+    projectName: "Gereranya(UI/UX)",
+    icon: holder,
+    yearDeveloped: "2023",
+    projectDescription: "Banking project",
+    developedBy: "Individual",
+    overview: `
     <p>
         GERERANYA is as application of National Bank of Rwanda that allows consumers of financial services to compare costs of different services from financiakl services providers.
         This work  contains UI/UX designs for web and mobile application and it was competing in Web Comparator Design Competition of BNR in May 2023, where it was marked 67%.
     </p><br/>`,
-    "contributions":``,
+    contributions: ``,
 
-    "pages":[
-        {
-            "image":ghome,
-            "page":"Homepage",
-        },
-        {
-            "image":Banks,
-            "page":"List of banks",
-        },
-        {
-            "image":cardscompare,
-            "page":"Compare cards from different banks",
-        },
-        {
-            "image":loanscompare,
-            "page":"Compare loans from different banks",
-        },
-        {
-            "image":accountreq,
-            "page":"Compare banking accounts from different banks ",
-        },
-        {
-            "image":calculator,
-            "page":"Calculating loans intresets from different banks",
-        },
-        {
-            "image":services,
-            "page":"All financial services",
-        },
-        {
-            "image":eservicescompare,
-            "page":"E-services comparisons",
-        },       
-  
+    pages: [
+      {
+        image: ghome,
+        page: "Homepage",
+      },
+      {
+        image: Banks,
+        page: "List of banks",
+      },
+      {
+        image: cardscompare,
+        page: "Compare cards from different banks",
+      },
+      {
+        image: loanscompare,
+        page: "Compare loans from different banks",
+      },
+      {
+        image: accountreq,
+        page: "Compare banking accounts from different banks ",
+      },
+      {
+        image: calculator,
+        page: "Calculating loans intresets from different banks",
+      },
+      {
+        image: services,
+        page: "All financial services",
+      },
+      {
+        image: eservicescompare,
+        page: "E-services comparisons",
+      },
     ],
-    "Tools":['Figma'],
-    "Link":"https://www.figma.com/file/XwYU9IG8WuKkURLtkkbWEa/GERERANYA-BNR?type=design&node-id=0%3A1&mode=design&t=HlJjuynYgcrriRmH-1"
-
-
-},
-{
-    "projectCode":"2023112",
-    "projectName":"Vehicle spare parts project(APIs)",
-    "icon":vsp,
-    "yearDeveloped":"2023",
-    "projectDescription":"E-commerce project",
-    "developedBy":"Individual",
-    "overview":`
+    Tools: ["Figma"],
+    Link: "https://www.figma.com/file/XwYU9IG8WuKkURLtkkbWEa/GERERANYA-BNR?type=design&node-id=0%3A1&mode=design&t=HlJjuynYgcrriRmH-1",
+  },
+  {
+    projectCode: "2023112",
+    projectName: "Vehicle spare parts project(APIs)",
+    icon: vsp,
+    yearDeveloped: "2023",
+    projectDescription: "E-commerce project",
+    developedBy: "Individual",
+    overview: `
     <p>
        Vehicle spare parts projects is an E-commerce project which allow users to order and purchase vehicle parts online.
        This project includes covers different operations like authentication,CRUDs operations,ordering operations,verifications,generates various reorts,etc,
     </p><br/>`,
-    "contributions":``,
+    contributions: ``,
 
-    "pages":[
-        {'image':users,'page':"Users APIs"},
-        {'image':orders,'page':"Ordering APIs"},
-        {'image':products,'page':"Products APIs"},
-        {'image':auth,'page':"Authentication APIs"},
-
-
+    pages: [
+      { image: users, page: "Users APIs" },
+      { image: orders, page: "Ordering APIs" },
+      { image: products, page: "Products APIs" },
+      { image: auth, page: "Authentication APIs" },
     ],
-    "Tools":['Node js','Express server','Git','GitHub','VsCode','Claudinary','MongoDB'],
-    "Link":"http://vspdealers.onrender.com/documentation"
-
-
-},
-{
-    "projectCode":"2024012",
-    "projectName":"Budget PE(UI/UX)",
-    "icon":bpe,
-    "yearDeveloped":"2024",
-    "projectDescription":"Budget Planning and Execution project",
-    "developedBy":"Individual",
-    "overview":`
+    Tools: ["Node js", "MongoDB"],
+    Link: "http://vspdealers.onrender.com/documentation",
+  },
+  {
+    projectCode: "2024012",
+    projectName: "Budget PE(UI/UX)",
+    icon: bpe,
+    yearDeveloped: "2024",
+    projectDescription: "Budget Planning and Execution project",
+    developedBy: "Individual",
+    overview: `
     <p>
            Budget PE is software solution that streamlines the entire budgeting process, from formulation to execution, providing 
             transparency, and accuracy, and facilitating collaboration among government departments.
     </p><br/>`,
-    "contributions":``,
+    contributions: ``,
 
-    "pages":[],
-    "Tools":['Figma'],
-    "Link":"https://www.figma.com/proto/gFhswNAQBaLOiFbsbrRr5Y/Budget?page-id=0%3A1&type=design&node-id=1-2&viewport=340%2C619%2C1&t=zgOi0QjBqL4eVifL-1&scaling=scale-down&mode=design"
-
-
-},
-{
-    "projectCode":"2023020",
-    "projectName":"Booking Dokter",
-    "icon":dokter,
-    "yearDeveloped":"2023",
-    "projectDescription":"Health Services project",
-    "developedBy":"Individual",
-    "overview":`
+    pages: [],
+    Tools: ["Figma"],
+    Link: "https://www.figma.com/proto/gFhswNAQBaLOiFbsbrRr5Y/Budget?page-id=0%3A1&type=design&node-id=1-2&viewport=340%2C619%2C1&t=zgOi0QjBqL4eVifL-1&scaling=scale-down&mode=design",
+  },
+  {
+    projectCode: "2023020",
+    projectName: "Booking Dokter",
+    icon: dokter,
+    yearDeveloped: "2023",
+    projectDescription: "Health Services project",
+    developedBy: "Individual",
+    overview: `
     <p>
     The doctor's appointment is digital platform designed to streamline and enhance the process of scheduling and managing appointment between patients and medical practitioners.
     This system offers an efficient and user-friendly interface for patients to view available time slots,selects preferred doctors and book appointments at their convenience. Medical individuals can manage their schedules,track patient appointments, and efficiently allocate their time.
     The system aims to reduce waiting times,enhance patient-doctor communication and improve ob=verall healthcare service delivery.
     </p><br/>`,
-    "contributions":``,
+    contributions: ``,
 
-    "pages":[],
-    "Tools":['React','Node js','Tailwind css','Git','GitHub','VsCode','Google Chrome','MongoDB'],
-    "Link":"https://dr-appointment-project.netlify.app/"
+    pages: [],
+    Tools: ["React", "Node js", "MongoDB"],
+    Link: "https://dr-appointment-project.netlify.app/",
+  },
 
+  {
+    projectCode: "2026020",
+    projectName: "ASSESLY",
+    icon: assesly,
+    yearDeveloped: "2026",
+    projectDescription: "Education | Assesment project",
+    developedBy: "Individual",
+    overview: `
+    <p>
+   Assessly is a full-featured web application designed to simplify daily student assessments for teachers and educational institutions. Built with React, Assessly works as a lightweight yet powerful alternative to Google Forms, focused specifically on classroom assessments, performance tracking, and analytics.
 
-},
-]
+The platform enables teachers to create classes, design assessments, auto-grade responses, and monitor student performance over time through an intuitive dashboard.
+    </p><br/>`,
+    contributions: ``,
 
+    pages: [],
+    Tools: ["React", "Node js", "MongoDB"],
+    Link: "https://assesly-fe.onrender.com",
+  },
 
+  {
+    projectCode: "2025020",
+    projectName: "MarketNest",
+    icon: MN,
+    yearDeveloped: "2025",
+    projectDescription: "E-Commerce",
+    developedBy: "Individual",
+    overview: `
+    <p>
+   MarketNest is a full-featured mobile application designed to simplify daily shoping. Built with Flutter.
 
+The platform enables users to browse products, add them to cart, and pay for the products.
+    </p><br/>`,
+    contributions: ``,
 
-
+    pages: [],
+    Tools: ["Flutter", "Node js", "MongoDB"],
+    Link: "https://github.com/Gedeonir/ecommerce_mobile_app",
+  },
+];
